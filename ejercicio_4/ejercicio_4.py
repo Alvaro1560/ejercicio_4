@@ -23,3 +23,6 @@ for letra in texto:
         contador_vocales += 1
     else:
         contador_consonantes += 1
+# Mostrar los resultados
+print("Número de vocales:", contador_vocales)
+print("Número de consonantes:", contador_consonantes)
