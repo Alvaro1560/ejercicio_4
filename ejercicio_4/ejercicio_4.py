@@ -12,3 +12,14 @@ while len(texto) != 10 or not texto.isalpha():
 
 # Convertir el texto a minúsculas para facilitar la comparación
 texto = texto.lower()
+
+# Inicializar contadores de vocales y consonantes
+contador_vocales = 0
+contador_consonantes = 0
+
+# Iterar sobre cada letra del texto
+for letra in texto:
+    if letra in vocales:
+        contador_vocales += 1
+    else:
+        contador_consonantes += 1
